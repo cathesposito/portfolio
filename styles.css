@@ -1,0 +1,171 @@
+
+
+body{
+  margin: 0;
+  text-align: left;
+  font-family: 'Recursive', sans-serif;
+
+}
+
+h1{
+  color: black;
+  font-weight: bold;
+  font-size: 4.5rem;
+  letter-spacing: 5px;
+  text-align: right;
+}
+
+h2{
+  letter-spacing: 3px;
+  font-weight: bolder;
+  text-align: left;
+  padding-top: 3rem;
+}
+
+.lead{
+  font-weight: 300;
+}
+
+.top-navbar{
+  margin-top: 20px;
+
+}
+
+.logo{
+  width: 150px;
+}
+
+.icons{
+  font-size: 2rem;
+  color: #EDC1B7;
+}
+
+.top-container{
+  margin-bottom: 5rem;
+}
+
+.background{
+  position: relative;
+  max-width: inherit;
+}
+
+.headings{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+
+}
+
+.hide{
+  display: none;
+}
+
+.title{
+  text-align: right;
+}
+
+.sidebarBackground{
+  background-image: url('images/sidebarbackground.png');
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.middle-container{
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.skills{
+  margin-bottom: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bottom-container{
+  background-image: url('images/5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: auto;
+}
+
+.alignRight{
+  text-align: right;
+}
+
+footer{
+  padding: 10px 0;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px;
+  color: black;
+  align-self: baseline;
+}
+
+.contact{
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #EDC1B7;
+  font-weight: bold;
+}
+
+.icons:hover{
+  color: black;
+}
+
+footer{
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* Contact me Page */
+
+.navbarE{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.form{
+  background-image: url("images/yogalogo.png");
+  background-repeat: space;
+  background-position-x: center;
+  height: 700px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+input[type=text], input[type=email] {
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 300px;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 300px;
+  height: 160px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: solid black;
+  background-color: #EDC1B7;
+  resize: inherit;
+}
+
+input[type=submit] {
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
