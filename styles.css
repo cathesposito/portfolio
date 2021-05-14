@@ -22,10 +22,21 @@ h2{
   padding-top: 3rem;
 }
 
-.lead{
-  font-weight: 300;
+a{
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px;
+  color: black;
+  align-self: baseline;
 }
 
+
+a:hover {
+  color: #EDC1B7;
+  font-weight: bold;
+}
+
+/* Navbar */
 .top-navbar{
   margin-top: 20px;
 
@@ -40,6 +51,12 @@ h2{
   color: #EDC1B7;
 }
 
+.icons:hover{
+  color: black;
+}
+
+
+/* Top container */
 .top-container{
   margin-bottom: 5rem;
 }
@@ -53,34 +70,38 @@ h2{
   position: absolute;
   top: 40%;
   left: 10%;
-
-}
-
-.hide{
-  display: none;
 }
 
 .title{
   text-align: right;
 }
 
+/* Sidebar  */
 .sidebarBackground{
   background-image: url('images/sidebarbackground.png');
   padding-top: 20px;
   padding-left: 20px;
 }
 
+/* Sites section */
+.lead{
+  font-weight: 300;
+}
+
+/* Middle container */
 .middle-container{
   margin: auto;
   margin-bottom: 5rem;
 }
 
+/* Skills Section */
 .skills{
   margin-bottom: 5rem;
   margin-right: auto;
   margin-left: auto;
 }
 
+/* Bottom container */
 .bottom-container{
   background-image: url('images/5.png');
   background-repeat: no-repeat;
@@ -93,32 +114,13 @@ h2{
   text-align: right;
 }
 
-footer{
-  padding: 10px 0;
-}
-
-a{
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 5px;
-  color: black;
-  align-self: baseline;
-}
-
 .contact{
   font-size: 1rem;
 }
 
-a:hover {
-  color: #EDC1B7;
-  font-weight: bold;
-}
-
-.icons:hover{
-  color: black;
-}
-
+/* Footer */
 footer{
+  padding: 10px 0;
   text-align: center;
   font-size: 0.8rem;
 }
