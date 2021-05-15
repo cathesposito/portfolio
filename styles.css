@@ -39,7 +39,7 @@ a:hover {
 /* Navbar */
 .top-navbar{
   margin-top: 20px;
-
+  padding-left: 150px;
 }
 
 .logo{
@@ -170,4 +170,19 @@ input[type=submit] {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+/* Media query */
+@media screen and (max-width:1200px) {
+
+  h1{
+    font-size: 3rem; 
+  }
+
+  .top-navbar{
+
+    padding-left: 80px;
+  }
+
+
 }
