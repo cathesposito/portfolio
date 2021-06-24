@@ -48,13 +48,21 @@ a:hover {
 
 .icons{
   font-size: 2rem;
-  color: #EDC1B7;
+  color: #ED3A11;
 }
 
 .icons:hover{
   color: black;
 }
 
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+li{
+  margin-bottom: 8px;
+}
 
 /* Top container */
 .top-container{
@@ -176,13 +184,20 @@ input[type=submit] {
 @media screen and (max-width:1200px) {
 
   h1{
-    font-size: 3rem; 
+    font-size: 3rem;
   }
 
   .top-navbar{
 
     padding-left: 80px;
   }
+
+
+}
+
+@media screen and (min-width:2000px) {
+
+
 
 
 }
